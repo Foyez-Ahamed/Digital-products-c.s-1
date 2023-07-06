@@ -9,6 +9,7 @@ body{
     font-family: 'Oxygen', sans-serif;
 }
 
+ /* header section css start */
 .navbar{
     background: rgb(76, 73, 73);
     display: flex;
@@ -62,3 +63,5 @@ body{
 .nav-item ul li a:hover{
     color: tomato;
 }
+
+/* header section css start */
