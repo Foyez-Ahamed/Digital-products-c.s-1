@@ -121,3 +121,64 @@ body{
   }
  
 /* Banner section css end */
+
+
+/* about us section css start */
+.about-us{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    /* border: 2px solid tomato; */
+    align-items: center;
+}
+ 
+.about-title{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 15px 0;
+    text-transform: uppercase;
+    color: tomato;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px #000000;
+}
+  
+.about-img{
+    width: 350px;
+}
+
+
+.about-text .title{
+    color: #000000;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  .about-text .description{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 400;
+    padding: 10px 0;
+  }
+
+  .about-text .btn{
+    margin-top: 15px;
+    padding: 15px 25px;
+    background-color: tomato;
+    color: #ffffff;
+    border: none;
+    border-radius: 0 8px 0 8px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.8s;
+    cursor: pointer;
+  }
+
+  .about-text button:hover{
+    background-color: transparent;
+    color: #000000;
+    border: 1px solid tomato;
+  }
+/* about us section css end */
