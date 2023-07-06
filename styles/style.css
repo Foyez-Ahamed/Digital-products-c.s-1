@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.hi{
+    color: blueviolet;
+    cursor: url("../icon/cokhmara.png"),auto;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    padding: 15px;
+    background-color: tomato;
+    width: 200px;
+    color: aliceblue;
+}
+
+.box-2{
+    background-color: blueviolet;
+}
+
+.box-3{
+    background-color: green;
+}
