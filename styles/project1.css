@@ -8,3 +8,57 @@
 body{
     font-family: 'Oxygen', sans-serif;
 }
+
+.navbar{
+    background: rgb(76, 73, 73);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+
+}
+
+
+.nav-logo h1{
+    font-size: 33px;
+    color: azure;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.nav-logo h1:hover{
+    color: tomato;
+}
+
+.nav-logo h1 span{
+    font-size: 34px;
+    color: tomato;
+    transition: 0.8s;
+}
+
+.nav-logo h1 span:hover{
+    color: tomato;
+}
+
+
+.nav-item ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item ul li{
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+.nav-item ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: azure;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.nav-item ul li a:hover{
+    color: tomato;
+}
